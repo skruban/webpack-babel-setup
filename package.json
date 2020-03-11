@@ -1,0 +1,28 @@
+{
+  "name": "webpack-babel-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server src/index.js -o public/main.js --port=9000 --contentBase=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skruban/webpack-babel-setup.git"
+  },
+  "author": "skruban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skruban/webpack-babel-setup/issues"
+  },
+  "homepage": "https://github.com/skruban/webpack-babel-setup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-arrow-functions": "^7.8.3",
+    "@babel/plugin-transform-template-literals": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
